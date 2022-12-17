@@ -18,3 +18,88 @@ body {
   background-color: #191c32;
   font-family: 'Montserrat', sans-serif;
 }
+
+.fixed--email {
+  position: fixed;
+  bottom: 11rem;
+  right: 1.1rem;
+  color: #00ffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  writing-mode: vertical-rl;
+  z-index: 1000;
+}
+
+.divider--right {
+  position: fixed;
+  bottom: 0;
+  right: 1.5rem;
+  min-width: 2px;
+  min-height: 10rem;
+  background-color: #00FFFF;
+  z-index: 1000;
+}
+
+.divider--left {
+  position: fixed;
+  bottom: 0;
+  left: 2rem;
+  min-width: 2px;
+  min-height: 10rem;
+  background-color: #00FFFF;
+  z-index: 1000;
+}
+
+.fixed--icons {
+  position: absolute;
+  bottom: 10rem;
+  left: 0.5rem;
+}
+
+.fixed--icons ul li a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  transition: .5s ease-in;
+  margin: 15px 0;
+}
+
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #00ffff;
+  transition: .5s;
+  transform: scale(0.9);
+  z-index: -10;
+}
+
+ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #00ffff;
+}
+
+ul li a:hover {
+  color: #00ffff;
+  box-shadow: 0 0 5px #00ffff;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+
+@media screen and (max-width:1000px) {}
+
+@media screen and (max-width:640px) {}
+
+@media screen and (max-width:320px) {}
