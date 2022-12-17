@@ -10,7 +10,7 @@ function App() {
     <HashRouter>
       <div className="App">
         <Navbar />
-        <div className='fixed--email'>wdiazdev@gmail.com</div>
+        <a href='#' className='fixed--email'>wdiazdev@gmail.com</a>
         <div className='divider--right'></div>
         <div className='divider--left'></div>
 
@@ -18,11 +18,11 @@ function App() {
 
           <ul>
             <li>
-              <a href='' className='icon'><FaGithub /></a>
+              <a href='https://github.com/WDiazDev' className='icon' target='blanck'><FaGithub /></a>
             </li>
 
             <li>
-              <a href='' className='icon'><FaLinkedin /></a>
+              <a href='https://www.linkedin.com/in/wdiazdev/' className='icon' target='blanck'><FaLinkedin /></a>
             </li>
           </ul>
 
