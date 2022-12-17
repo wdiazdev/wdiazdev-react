@@ -20,8 +20,7 @@
     background: linear-gradient(to right, #00FFFF 0%, #800080 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .nav--menu {
@@ -37,8 +36,7 @@
 
 .nav--menu a:hover {
     color: #fff;
-    transition: 0.5s;
-    text-shadow: 0 0 5px #00ffff;
+    transition: 0.5s ease-in;
 }
 
 .hamburger--menu {
@@ -46,28 +44,23 @@
 }
 
 .nav--menu a:nth-child(1) {
-    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .nav--menu a:nth-child(2) {
-    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: focus-in-expand 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .nav--menu a:nth-child(3) {
-    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: focus-in-expand 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .nav--menu a:nth-child(4) {
-    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: focus-in-expand 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .nav--menu a:nth-child(5) {
-    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: focus-in-expand 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @keyframes focus-in-expand {
@@ -102,7 +95,8 @@
         width: 100%;
         height: 100vh;
         z-index: -1;
-        background: rgba(0, 0, 0, .8);
+        background: rgba(0, 0, 0, .9);
+        transition: 0.5s ease-in-out;
     }
 
     .nav--menu.active {
