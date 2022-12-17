@@ -5,11 +5,11 @@ import Navbar from './Components/Navbar';
 function App() {
 
   return (
-    <div className="App">
-      <HashRouter>
+    <HashRouter>
+      <div className="App">
         <Navbar />
-      </HashRouter>
-    </div>
+      </div>
+    </HashRouter>
   )
 }
 
