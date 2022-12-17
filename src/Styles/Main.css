@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     background: url(../assets/animatedshape.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,9 +110,10 @@
 }
 
 .fixed--icons {
-    position: absolute;
+    position: fixed;
     bottom: 10rem;
-    left: 0.5rem;
+    left: 0.6rem;
+    z-index: 1000;
 }
 
 .fixed--icons ul li a {
@@ -229,9 +231,5 @@ ul li a:hover {
         width: 300px;
         letter-spacing: 1px;
         font-size: 1rem;
-    }
-
-    .main--bg {
-        display: none;
     }
 }

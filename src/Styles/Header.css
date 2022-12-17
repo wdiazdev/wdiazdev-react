@@ -1,0 +1,26 @@
+.header {
+    position: absolute;
+    top: 3rem;
+    left: 6rem;
+}
+
+.header h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 8rem;
+    text-decoration: underline;
+    text-decoration-color: #00FFFF;
+    text-underline-offset: 0.5rem;
+    background: linear-gradient(to right, #FFFFFF 0%, #00FFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header p {
+    font-size: 3rem;
+}
+
+@media screen and (max-width:1000px) {}
+
+@media screen and (max-width:640px) {}
+
+@media screen and (max-width:360px) {}
