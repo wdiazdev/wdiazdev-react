@@ -1,11 +1,10 @@
 import Header from '../Components/Header';
 import '../Styles/About.css';
 import myImage from '../assets/myimage.jpg';
-import avatar from '../assets/avatar.png';
 
 export default function About() {
     return (
-        <div className='about'>
+        <div className='about' id='about'>
             <Header
                 header={'About Me'}
                 subHeader={''}

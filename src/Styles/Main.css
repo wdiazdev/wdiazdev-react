@@ -43,13 +43,13 @@
 .welcome--to {
     width: 500px;
     position: absolute;
+    bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Abel', sans-serif;
     letter-spacing: 4px;
     font-size: 1.2rem;
-    bottom: 1rem;
     color: #00ffff;
 }
 
@@ -240,6 +240,11 @@
 
     .fixed--icons {
         display: none;
+    }
+
+    .top--icon {
+        bottom: 1rem;
+        right: 1rem;
     }
 }
 

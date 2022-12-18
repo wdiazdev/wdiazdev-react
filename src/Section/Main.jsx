@@ -10,10 +10,10 @@ export default function Main() {
 
         const scrolled = document.documentElement.scrollTop;
 
-        if (scrolled > 600) {
+        if (scrolled > 300) {
             setVisible(true)
         }
-        else if (scrolled <= 600) {
+        else if (scrolled <= 300) {
             setVisible(false)
         }
     };
@@ -21,7 +21,7 @@ export default function Main() {
     window.addEventListener('scroll', toggleVisible);
 
     return (
-        <div className='main'>
+        <div className='main' id='home'>
 
             <a href='#' className='fixed--email text-focus-in'>wdiazdev@gmail.com</a>
             <div className='divider--right text-focus-in'></div>
@@ -55,14 +55,14 @@ export default function Main() {
                 <p>I'm passionate about turning ideas into real-life products.</p>
             </div>
 
-            <div
-                className='welcome--to'
+            {!visible && (<div
+                className='welcome--to text-focus-in'
                 id='welcome--to'
             >
                 <FaAngleDoubleDown className='bounce' />
                 <h5>Welcome to my little corner of the internet</h5>
                 <FaAngleDoubleDown className='bounce' />
-            </div>
+            </div>)}
 
             <div
                 className='top--icon text-focus-in'
@@ -72,7 +72,6 @@ export default function Main() {
                     <li>
                         <a
                             href='#'
-                            target='blank'
                             className='bounce'
                             id='top--icon'
                         >
