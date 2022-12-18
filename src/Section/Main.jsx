@@ -1,18 +1,24 @@
 import '../Styles/Main.css';
-import { FaGithub, FaLinkedin, FaAngleDoubleDown } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaAngleDoubleDown, FaAngleUp } from 'react-icons/fa';
+import { useState } from 'react';
 
 export default function Main() {
 
-    const welcomeTo = document.querySelector("#welcome-to");
+    const [visible, setVisible] = useState(false);
 
-    window.addEventListener("scroll", () => {
-        if (lastScrollY < window.scrollY) {
-            welcomeTo.classList.add("welcome-to-hidden");
-        } else {
-            welcomeTo.classList.remove("welcome-to-hidden");
+    const toggleVisible = () => {
+
+        const scrolled = document.documentElement.scrollTop;
+
+        if (scrolled > 600) {
+            setVisible(true)
         }
-        lastScrollY = window.scrollY;
-    });
+        else if (scrolled <= 600) {
+            setVisible(false)
+        }
+    };
+
+    window.addEventListener('scroll', toggleVisible);
 
     return (
         <div className='main'>
@@ -26,7 +32,7 @@ export default function Main() {
                     <li>
                         <a
                             href='https://github.com/WDiazDev'
-                            className='icon' target='blank'>
+                            target='blank'>
                             <FaGithub />
                         </a>
                     </li>
@@ -34,7 +40,8 @@ export default function Main() {
                     <li>
                         <a
                             href='https://www.linkedin.com/in/wdiazdev/'
-                            className='icon' target='blank'>
+                            target='blank'
+                        >
                             <FaLinkedin />
                         </a>
                     </li>
@@ -48,12 +55,32 @@ export default function Main() {
                 <p>I'm passionate about turning ideas into real-life products.</p>
             </div>
 
-            <div class="welcome-to" id="welcome-to">
+            <div
+                className='welcome--to'
+                id='welcome--to'
+            >
                 <FaAngleDoubleDown className='bounce' />
                 <h5>Welcome to my little corner of the internet</h5>
                 <FaAngleDoubleDown className='bounce' />
             </div>
 
+            <div
+                className='top--icon text-focus-in'
+                style={{ display: visible ? 'inline' : 'none' }}
+            >
+                <ul>
+                    <li>
+                        <a
+                            href='#'
+                            target='blank'
+                            className='bounce'
+                            id='top--icon'
+                        >
+                            <FaAngleUp />
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }

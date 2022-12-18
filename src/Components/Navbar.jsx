@@ -24,7 +24,7 @@ export default function Navbar() {
 
     return (
         <nav className={navColor ? 'navbar--container navbar--bg' : 'navbar--container'}>
-            <NavLink to='/'><h3>WD</h3></NavLink>
+            <NavLink><h3>WD</h3></NavLink>
             <div className={click ? 'nav--menu active' : 'nav--menu'}>
                 <NavLink className='focus-in-expand'>Home</NavLink>
                 <NavLink className='focus-in-expand'>About</NavLink>

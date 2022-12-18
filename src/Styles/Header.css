@@ -1,12 +1,12 @@
 .header {
     position: absolute;
-    top: 3rem;
-    left: 6rem;
+    top: 2rem;
+    left: 4rem;
 }
 
 .header h2 {
     font-family: 'Abel', sans-serif;
-    font-size: 8rem;
+    font-size: 7rem;
     text-decoration: underline;
     text-decoration-color: #00FFFF;
     text-underline-offset: 0.5rem;
@@ -16,11 +16,40 @@
 }
 
 .header p {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
-@media screen and (max-width:1000px) {}
+@media screen and (max-width:1000px) {
+    .header h2 {
+        font-size: 6rem;
+    }
 
-@media screen and (max-width:640px) {}
+    .header p {
+        font-size: 2.5rem;
+    }
+}
 
-@media screen and (max-width:360px) {}
+@media screen and (max-width:640px) {
+    .header h2 {
+        font-size: 5rem;
+    }
+
+    .header p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .header {
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .header h2 {
+        font-size: 4rem;
+    }
+
+    .header p {
+        font-size: 1.5rem;
+    }
+}

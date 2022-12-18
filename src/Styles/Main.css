@@ -1,6 +1,6 @@
 .main {
     height: 100vh;
-    padding: 1rem;
+    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
     margin: 10px 0;
 }
 
-.welcome-to {
+.welcome--to {
     width: 500px;
     position: absolute;
     display: flex;
@@ -132,7 +132,7 @@
     margin: 15px 0;
 }
 
-ul li a::before {
+.fixed--icons ul li a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -146,12 +146,12 @@ ul li a::before {
     z-index: -10;
 }
 
-ul li a:hover::before {
+.fixed--icons ul li a:hover::before {
     transform: scale(1.1);
     box-shadow: 0 0 10px #00ffff;
 }
 
-ul li a:hover {
+.fixed--icons ul li a:hover {
     color: #00ffff;
     box-shadow: 0 0 5px #00ffff;
     text-shadow: 0 0 5px #00ffff;
@@ -159,6 +159,56 @@ ul li a:hover {
 
 .text-focus-in {
     animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* TO TOP BUTTON  */
+
+.top--icon {
+    position: fixed;
+    bottom: 1rem;
+    right: 3rem;
+    z-index: 1000;
+    opacity: 0;
+}
+
+.top--icon ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    transition: .5s ease-in;
+}
+
+.top--icon ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #00ffff;
+    transition: .5s;
+    transform: scale(0.9);
+    z-index: -10;
+}
+
+.top--icon ul li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.top--icon ul li a:hover {
+    color: #00ffff;
+    box-shadow: 0 0 5px #00ffff;
+    text-shadow: 0 0 5px #00ffff;
 }
 
 @keyframes text-focus-in {
@@ -214,6 +264,9 @@ ul li a:hover {
 }
 
 @media screen and (max-width:360px) {
+    .main {
+        padding: 1rem;
+    }
 
     .main h3 {
         font-size: 2rem;
@@ -224,7 +277,7 @@ ul li a:hover {
     }
 
     .main p {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .welcome-to {
