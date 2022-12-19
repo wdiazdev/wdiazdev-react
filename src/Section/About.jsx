@@ -1,6 +1,6 @@
+import DevImage from '../Components/DevImage';
 import Header from '../Components/Header';
 import '../Styles/About.css';
-import myImage from '../assets/myimage.jpg';
 
 export default function About() {
     return (
@@ -24,7 +24,7 @@ export default function About() {
                     <p>
                         My goal is to stay on the cutting edge of technological advancements.
                         I have enhanced my <span>technical abilities</span> and cultivated a
-                        reputation as a major contributor through <span>problem-solving</span>
+                        reputation as a major contributor through <span>problem-solving </span>
                         and <span>teamwork</span>.
                     </p>
 
@@ -36,7 +36,9 @@ export default function About() {
                     </p>
                 </div>
 
-                <img src={myImage} alt="Developer image" className='developer--img' />
+                <div>
+                    <DevImage />
+                </div>
 
             </div>
 

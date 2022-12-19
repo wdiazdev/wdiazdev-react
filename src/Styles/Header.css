@@ -2,6 +2,7 @@
     position: absolute;
     top: 2rem;
     left: 4rem;
+    right: 4rem;
 }
 
 .header h2 {
@@ -16,7 +17,7 @@
 }
 
 .header p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 @media screen and (max-width:1000px) {
@@ -25,7 +26,7 @@
     }
 
     .header p {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -35,7 +36,7 @@
     }
 
     .header p {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -50,6 +51,6 @@
     }
 
     .header p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }

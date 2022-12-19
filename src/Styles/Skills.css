@@ -1,0 +1,114 @@
+.skills {
+    height: 100vh;
+    padding: 4rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons--container {
+    max-width: 1220px;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 2rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.icon i {
+    display: flex;
+    font-size: 5rem;
+}
+
+.icon span {
+    font-size: 2rem;
+    background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon:hover {
+    color: #00ffff;
+    animation: jello-horizontal 0.8s both;
+}
+
+@keyframes jello-horizontal {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .icons--container {
+        margin-top: 8rem;
+        gap: 2rem;
+    }
+
+    .icon i {
+        font-size: 4.5rem;
+    }
+
+    .icon span {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    .icons--container {
+        margin-top: 11rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .icon i {
+        font-size: 4rem;
+    }
+
+    .icon span {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:360px) {}

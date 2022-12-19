@@ -32,7 +32,7 @@ export default function Main() {
                     <li>
                         <a
                             href='https://github.com/WDiazDev'
-                            target='blank'>
+                            target='_blank'>
                             <FaGithub />
                         </a>
                     </li>
@@ -40,7 +40,7 @@ export default function Main() {
                     <li>
                         <a
                             href='https://www.linkedin.com/in/wdiazdev/'
-                            target='blank'
+                            target='_blank'
                         >
                             <FaLinkedin />
                         </a>
