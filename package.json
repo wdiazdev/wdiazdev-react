@@ -1,5 +1,5 @@
 {
-  "Home": "http://wdiazdev.github.io/wdiazdev-react",
+  "Home": "https://wdiazdev.github.io/wdiazdev-react",
   "name": "wdiazdev-react",
   "private": false,
   "version": "0.0.0",
@@ -12,7 +12,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
@@ -22,6 +21,7 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
+    "gh-pages": "^4.0.0",
     "vite": "^4.0.0"
   }
 }
