@@ -1,6 +1,7 @@
 import '../Styles/Main.css';
 import { FaGithub, FaLinkedin, FaAngleDoubleDown, FaAngleUp } from 'react-icons/fa';
 import { useState } from 'react';
+import Astronaut from '../assets/astronot.gif';
 
 export default function Main() {
 
@@ -22,7 +23,9 @@ export default function Main() {
 
     return (
         <div className='main' id='home'>
-
+            <div className='astronaut--container text-focus-in'>
+                <img src={Astronaut} alt='Astronaut' className='astronaut' />
+            </div>
             <a href='#' className='fixed--email text-focus-in'>wdiazdev@gmail.com</a>
             <div className='divider--right text-focus-in'></div>
             <div className='divider--left text-focus-in'></div>
