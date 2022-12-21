@@ -15,26 +15,26 @@
 }
 
 .header p {
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 @media screen and (max-width:1000px) {
-    .header h2 {
-        font-size: 6rem;
-    }
-
-    .header p {
-        font-size: 1.8rem;
-    }
-}
-
-@media screen and (max-width:640px) {
     .header h2 {
         font-size: 5rem;
     }
 
     .header p {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .header h2 {
+        font-size: 4rem;
+    }
+
+    .header p {
+        font-size: 1.3rem;
     }
 }
 

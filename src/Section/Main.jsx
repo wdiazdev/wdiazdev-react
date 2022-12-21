@@ -24,38 +24,40 @@ export default function Main() {
     return (
         <div className='main' id='home'>
 
-            <img src={Astronaut} alt='Astronaut' className='astronaut text-focus-in' />
+            <div className='main--container'>
 
-            <a href='#' className='fixed--email text-focus-in'>wdiazdev@gmail.com</a>
-            <div className='divider--right text-focus-in'></div>
-            <div className='divider--left text-focus-in'></div>
+                <a href='#' className='fixed--email text-focus-in'>wdiazdev@gmail.com</a>
+                <div className='divider--right text-focus-in'></div>
+                <div className='divider--left text-focus-in'></div>
 
-            <div className='fixed--icons text-focus-in'>
-                <ul>
-                    <li>
-                        <a
-                            href='https://github.com/WDiazDev'
-                            target='_blank'>
-                            <FaGithub />
-                        </a>
-                    </li>
+                <div className='fixed--icons text-focus-in'>
+                    <ul>
+                        <li>
+                            <a
+                                href='https://github.com/WDiazDev'
+                                target='_blank'>
+                                <FaGithub />
+                            </a>
+                        </li>
 
-                    <li>
-                        <a
-                            href='https://www.linkedin.com/in/wdiazdev/'
-                            target='_blank'
-                        >
-                            <FaLinkedin />
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                        <li>
+                            <a
+                                href='https://www.linkedin.com/in/wdiazdev/'
+                                target='_blank'
+                            >
+                                <FaLinkedin />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-            <div className='main--content'>
-                <h3>Hi there, I'm</h3>
-                <h1>Wilfredo Diaz</h1>
-                <p>I am a Front-End Software Engineer based in Tampa Florida.</p>
-                <p>I'm passionate about turning ideas into real-life products.</p>
+                <div className='main--info'>
+                    <h3>Hi there, I'm</h3>
+                    <h1>Wilfredo Diaz</h1>
+                    <p>I am a Front-End Software Engineer based in Tampa Florida.</p>
+                    <p>I'm passionate about turning ideas into real-life products.</p>
+                    <img src={Astronaut} alt='Astronaut' className='astronaut text-focus-in' />
+                </div>
             </div>
 
             {!visible && (<div
@@ -63,7 +65,7 @@ export default function Main() {
                 id='welcome--to'
             >
                 <FaAngleDoubleDown className='bounce' />
-                <h5>Welcome to my little corner of the internet</h5>
+                <span>Welcome to my little corner of the internet</span>
                 <FaAngleDoubleDown className='bounce' />
             </div>)}
 

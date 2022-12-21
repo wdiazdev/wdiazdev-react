@@ -1,22 +1,23 @@
 .about {
     position: relative;
-    height: 100vh;
-    padding: 0 6rem;
+    min-height: 90vh;
+    width: 100%;
+    padding: 0 4rem;
 }
 
 .about--container {
     max-width: 1240px;
-    margin: 0 auto;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10rem;
     gap: 2rem;
 }
 
 .about--container p {
     margin: 1rem 0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .about--container span {
@@ -24,23 +25,23 @@
 }
 
 @media screen and (max-width:1000px) {
+    .about {
+        padding: 0 2rem;
+    }
+
     .about--container {
-        flex-direction: column;
         margin-top: 4rem;
+        flex-direction: column;
     }
 
     .about--container p {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width:640px) {
-    .about--container {
-        margin-top: 6rem;
-    }
-
     .about--container p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         text-align: center;
     }
 }
@@ -48,10 +49,5 @@
 @media screen and (max-width:360px) {
     .about {
         padding: 1rem;
-    }
-
-    .about--container {
-        flex-direction: column;
-        margin-top: 4rem;
     }
 }
