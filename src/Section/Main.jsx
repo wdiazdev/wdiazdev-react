@@ -23,9 +23,9 @@ export default function Main() {
 
     return (
         <div className='main' id='home'>
-            <div className='astronaut--container text-focus-in'>
-                <img src={Astronaut} alt='Astronaut' className='astronaut' />
-            </div>
+
+            <img src={Astronaut} alt='Astronaut' className='astronaut text-focus-in' />
+
             <a href='#' className='fixed--email text-focus-in'>wdiazdev@gmail.com</a>
             <div className='divider--right text-focus-in'></div>
             <div className='divider--left text-focus-in'></div>

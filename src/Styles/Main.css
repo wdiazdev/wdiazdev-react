@@ -1,11 +1,11 @@
 .main {
+    position: relative;
     height: 100vh;
     width: 100%;
-    padding: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    padding: 4rem;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('/src/assets/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,16 +203,12 @@
     text-shadow: 0 0 5px #00ffff;
 }
 
-.astronaut--container {
-    position: relative;
-}
-
 .astronaut {
     position: absolute;
-    bottom: 1rem;
-    left: 40rem;
-    width: 350px;
-    transform: scaleX(-1) rotate(8deg);
+    top: 12rem;
+    right: 16rem;
+    width: 250px;
+    transform: scaleX(-1);
 }
 
 @keyframes text-focus-in {
@@ -251,7 +247,7 @@
         right: 1rem;
     }
 
-    .astronaut--container {
+    .astronaut {
         display: none;
     }
 }

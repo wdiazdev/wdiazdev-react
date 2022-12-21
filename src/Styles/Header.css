@@ -1,8 +1,6 @@
 .header {
-    position: absolute;
+    position: relative;
     top: 2rem;
-    left: 4rem;
-    right: 4rem;
 }
 
 .header h2 {
