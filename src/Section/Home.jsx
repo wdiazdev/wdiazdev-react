@@ -1,6 +1,7 @@
 import '../Styles/Main.css';
 import { FaGithub, FaLinkedin, FaAngleDoubleDown, FaAngleUp } from 'react-icons/fa';
 import { useState } from 'react';
+import Typed from 'react-typed';
 import Astronaut from '../assets/astronot.gif';
 
 export default function Main() {
