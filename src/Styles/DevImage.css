@@ -62,7 +62,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: 0.5S;
+    transition: 0.5s;
     pointer-events: none;
     z-index: 10;
 }

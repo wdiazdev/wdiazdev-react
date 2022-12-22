@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import About from './Section/About';
 import Home from './Section/Home';
 import Skills from './Section/Skills';
+import Work from './Section/Work';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Work />
     </HashRouter >
   )
 }
