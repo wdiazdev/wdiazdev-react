@@ -9,7 +9,7 @@
     text-decoration: underline;
     text-decoration-color: #00FFFF;
     text-underline-offset: 0.5rem;
-    background: linear-gradient(to right, #FFFFFF 0%, #00FFFF 100%);
+    background: linear-gradient(to right, #FFFFFF 0%, #00FFFF 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

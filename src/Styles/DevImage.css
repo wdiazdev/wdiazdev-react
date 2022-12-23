@@ -71,49 +71,26 @@
     opacity: 0;
 }
 
-.box h2 {
+.box a {
     position: relative;
     font-family: 'Abel', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 700;
     background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 0.3s ease-in;
 }
 
-.box a {
-    position: relative;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 5px 20px;
-    margin-top: 10px;
-    background: #333;
-    color: #00ffff;
-    border: 3px solid #00ffff;
-    border-radius: 25px;
-    box-shadow: 0 0 5px #00ffff;
-    transition: 0.5s;
-}
-
-.box a:hover {
-    letter-spacing: 2px;
-}
+.box a:hover {}
 
 @media screen and (max-width:640px) {
     .circle {
         margin-top: 2rem;
         width: 350px;
         height: 350px;
-    }
-
-    .box h2 {
-        font-size: 2.2rem;
-    }
-
-    .box a {
-        font-size: 0.8rem;
     }
 }
 
@@ -124,7 +101,7 @@
         height: 300px;
     }
 
-    .box h2 {
-        font-size: 2rem;
+    .box a {
+        font-size: 1.5rem;
     }
 }

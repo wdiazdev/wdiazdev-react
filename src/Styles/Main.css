@@ -17,7 +17,7 @@
 }
 
 .main--info {
-    background: linear-gradient(to right, #FFFFFF 0%, #00FFFF 100%);
+    background: linear-gradient(to right, #FFFFFF 10%, #00FFFF 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -34,13 +34,14 @@ h1 {
 
 p {
     font-size: 2rem;
+    font-weight: 500;
     margin: 10px 0;
 }
 
 
 .welcome--to {
     position: absolute;
-    bottom: 1rem;
+    bottom: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     left: 0;

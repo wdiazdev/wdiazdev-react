@@ -21,7 +21,9 @@
 }
 
 .about--container span {
-    color: #00ffff;
+    background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width:1000px) {

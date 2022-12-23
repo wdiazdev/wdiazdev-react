@@ -7,10 +7,23 @@ export default function Navbar() {
 
     const [click, setClick] = useState(false);
 
+
     const handleClick = () => setClick(!click);
 
+    const [navColor, setNavColor] = useState(false);
+
+    const changeNavBg = () => {
+        if (window.scrollY >= 100) {
+            setNavColor(true)
+        } else {
+            setNavColor(false)
+        }
+    };
+
+    window.addEventListener('scroll', changeNavBg)
+
     return (
-        <nav className='navbar--container'>
+        <nav className={navColor ? 'navbar--container navbar--bg' : 'navbar--container'}>
             <h3>WD</h3>
             <div className={click ? 'nav--menu active' : 'nav--menu'}>
                 <a onClick={handleClick} className='focus-in-expand' href='#home'>Home</a>
@@ -22,6 +35,6 @@ export default function Navbar() {
             <div className='hamburger--menu' onClick={handleClick}>
                 {click ? (<FaTimes size={35} />) : (<FaBars size={35} />)}
             </div>
-        </nav>
+        </nav >
     )
 }

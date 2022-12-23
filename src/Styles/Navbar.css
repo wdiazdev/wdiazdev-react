@@ -1,10 +1,10 @@
 .navbar--container {
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem 3rem;
     z-index: 1000;
 }
 
@@ -15,7 +15,7 @@
 
 .navbar--container h3 {
     font-family: 'Abel', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #00ffff;
     background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
     -webkit-background-clip: text;
@@ -38,7 +38,7 @@
 
 .nav--menu a:hover {
     color: #fff;
-    transition: 0.5s ease-in;
+    transition: 0.3s ease-in;
 }
 
 .hamburger--menu {
@@ -81,6 +81,9 @@
 }
 
 @media screen and (max-width:1000px) {
+    .navbar--container {
+        padding: 1rem 2rem;
+    }
 
     .hamburger--menu {
         display: block;
@@ -89,16 +92,16 @@
 
     .nav--menu {
         position: fixed;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 100vh;
         top: 0;
         left: -100%;
         width: 100%;
-        height: 100vh;
         z-index: -10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background: rgba(0, 0, 0, .9);
-        transition: 0.5s ease-in;
+        transition: 0.3s ease-in;
     }
 
     .nav--menu.active {
@@ -106,7 +109,7 @@
     }
 
     .nav--menu>a {
-        font-size: 1.8rem;
-        padding: 1rem;
+        font-size: 1.6rem;
+        padding: 1.5rem;
     }
 }
