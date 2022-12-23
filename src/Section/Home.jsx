@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaAngleDoubleDown, FaAngleUp } from 'react-icons/
 import { useState } from 'react';
 import Astronaut from '../assets/astronot.gif';
 
-export default function Main() {
+export default function Home() {
 
     const [visible, setVisible] = useState(false);
 

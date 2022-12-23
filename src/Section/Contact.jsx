@@ -1,14 +1,18 @@
 import '../Styles/Contact.css';
 import Header from '../Components/Header';
 import { FaPhone, FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
+import * as FaIcons from 'react-icons/fa';
+import * as SiIcons from "react-icons/si";
 
 export default function Contact() {
     return (
         <div className='contact' id='contact'>
+
             <Header
                 header={'Get in Touch'}
                 subHeader={'I am available to work on your projects and bring your ideas to life.'}
             />
+
             <div className='contact--container'>
 
                 <div className='contact--info'>
@@ -35,7 +39,9 @@ export default function Contact() {
                     </div>
 
                 </div>
+
             </div>
+
         </div>
     )
 }
