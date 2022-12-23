@@ -7,7 +7,7 @@
 
 .skills--container {
     max-width: 1240px;
-    margin: 10rem auto;
+    margin: 12rem auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
@@ -97,6 +97,7 @@
 @media screen and (max-width:640px) {
     .skills--container {
         grid-template-columns: repeat(2, 1fr);
+        margin: 8rem auto;
     }
 }
 
