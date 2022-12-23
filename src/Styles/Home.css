@@ -4,7 +4,7 @@
     padding: 0 4rem;
     position: relative;
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('/src/assets/bg1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('/src/assets/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

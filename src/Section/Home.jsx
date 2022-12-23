@@ -1,4 +1,4 @@
-import '../Styles/Main.css';
+import '../Styles/Home.css';
 import { FaGithub, FaLinkedin, FaAngleDoubleDown, FaAngleUp } from 'react-icons/fa';
 import { useState } from 'react';
 import Astronaut from '../assets/astronot.gif';

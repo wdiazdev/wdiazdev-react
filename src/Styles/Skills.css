@@ -3,6 +3,9 @@
     min-height: 100vh;
     width: 100%;
     padding: 0 4rem;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url('/src/assets/homebg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skills--container {
@@ -81,7 +84,7 @@
     }
 
     .skills--container {
-        margin-top: 4rem;
+        margin-top: 8rem;
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -97,7 +100,6 @@
 @media screen and (max-width:640px) {
     .skills--container {
         grid-template-columns: repeat(2, 1fr);
-        margin: 8rem auto;
     }
 }
 

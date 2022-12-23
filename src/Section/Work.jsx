@@ -21,7 +21,10 @@ export default function Work() {
 
                                 <div className='card--info'>
 
+
                                     <h3>{item.name}</h3>
+
+                                    <span>{item.tech}</span>
 
                                     <p>{item.description}</p>
 

@@ -1,0 +1,28 @@
+.contact {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.contact--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    gap: 1rem;
+}
+
+.contact--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.contact--info span {
+    margin-left: 1rem;
+}

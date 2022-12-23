@@ -4,6 +4,7 @@ import './App.css';
 import Loader from './Components/Loader';
 import Navbar from './Components/Navbar';
 import About from './Section/About';
+import Contact from './Section/Contact';
 import Home from './Section/Home';
 import Skills from './Section/Skills';
 import Work from './Section/Work';
@@ -29,21 +30,21 @@ function App() {
     )
   }
 
-  // return (
-  //   <div className='App'>
+  return (
+    <div className='App'>
 
-  //     <HashRouter>
+      <HashRouter>
 
-  //       <Navbar />
-  //       <Home />
-  //       <About />
-  //       <Skills />
-  //       <Work />
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+      </HashRouter >
 
-  //     </HashRouter >
-
-  //   </div>
-  // )
+    </div>
+  )
 }
 
 export default App
