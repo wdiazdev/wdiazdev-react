@@ -21,36 +21,31 @@ function App() {
     }, 2500)
 
   }, []);
-  {
-    if (loading) {
-      return (
-        <div className='App'>
-          <HashRouter>
 
-            <Loader />
+  return (
+    <div className='App'>
+      <HashRouter>
 
-          </HashRouter>
-        </div>
-      )
-    } else
+        {loading ?
 
-      return (
-        <div className='App'>
+          <Loader />
 
-          <HashRouter>
+          :
 
+          <>
             <Navbar />
             <Home />
             <About />
             <Skills />
             <Work />
             <Contact />
+          </>
+        }
 
-          </HashRouter >
+      </HashRouter>
 
-        </div>
-      )
-  }
-}
+    </div>
+  )
+};
 
-export default App
+export default App;
