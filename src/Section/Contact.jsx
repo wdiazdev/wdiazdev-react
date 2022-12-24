@@ -25,7 +25,7 @@ export default function Contact() {
 
     setTimeout(() => {
         setSent(false)
-    }, 5000)
+    }, 6000)
 
     return (
         <div className='contact' id='contact'>
@@ -62,34 +62,36 @@ export default function Contact() {
 
                 </div>
 
+                <form ref={form} onSubmit={sendEmail} className='form'>
 
-                <div className='form--container'>
+                    <div className='input--container'>
+                        <input type='text' name='from_name' required='required' />
+                        <span>Name</span>
+                    </div>
 
-                    <form ref={form} onSubmit={sendEmail}>
+                    <div className='input--container'>
+                        <input type='email' name='user_email' required='required' />
+                        <span>Email</span>
+                    </div>
 
-                        <label>Name</label>
-                        <input type='text' name='from_name' required />
+                    <div className='input--container'>
+                        <input type='text' name='subject' required='required' />
+                        <span>Subject</span>
+                    </div>
 
-                        <label>Email</label>
-                        <input type='email' name='user_email' required />
+                    <div className='input--container'>
+                        <textarea name='message' required='required' />
+                    </div>
 
-                        <label>Subject</label>
-                        <input type='text' name='subject' required />
-
-                        <label>Message</label>
-                        <textarea name='message' required />
-
-                        <input type='submit' value='Send' />
-
-                    </form>
+                    <input type='submit' value='Send' />
 
                     {sent ?
-                        <p className='msg--sent'>
-                            The message has been sent!
+                        <p className='msg--sent tracking-in-expand-fwd-top'>
+                            Your message has been sent!
                         </p> : null
                     }
 
-                </div>
+                </form>
 
             </div>
 
