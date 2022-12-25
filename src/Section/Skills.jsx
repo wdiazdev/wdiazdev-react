@@ -12,6 +12,7 @@ export default function Skills() {
             />
 
             <div>
+
                 <div className="skills--container">
 
                     {
@@ -24,8 +25,19 @@ export default function Skills() {
                             )
                         })
                     }
+
                 </div>
+
+                <div className='skills--titles'>
+
+                    <span>Front-end</span>
+                    <span>Back-end</span>
+                    <span>UI/UX</span>
+
+                </div>
+
             </div>
+
         </div>
     )
 }

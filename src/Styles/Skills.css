@@ -41,6 +41,17 @@
     animation: jello-horizontal 0.6s both;
 }
 
+.skills--titles {
+    position: relative;
+    bottom: 6rem;
+    margin: 0 auto;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #00ffff;
+}
+
 @keyframes jello-horizontal {
     0% {
         -webkit-transform: scale3d(1, 1, 1);
@@ -95,16 +106,29 @@
     .icon span {
         font-size: 1.3rem;
     }
+
+    .skills--titles {
+        bottom: 4rem;
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width:640px) {
     .skills--container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .skills--titles {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width:360px) {
     .skills {
         padding: 1rem;
+    }
+
+    .skills--titles {
+        font-size: 1rem;
     }
 }

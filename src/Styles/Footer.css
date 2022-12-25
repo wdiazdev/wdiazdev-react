@@ -27,6 +27,7 @@
 
 @media screen and (max-width:1000px) {
     .footer {
+        min-height: 15vh;
         gap: 0.5rem;
     }
 
