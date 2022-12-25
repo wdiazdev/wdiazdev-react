@@ -80,7 +80,7 @@ export default function Contact() {
                     </div>
 
                     <div className='input--container'>
-                        <textarea name='message' required='required' />
+                        <textarea name='message' required='required' placeholder='' />
                     </div>
 
                     <input type='submit' value='Send' className='btn' />
