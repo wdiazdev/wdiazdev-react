@@ -10,10 +10,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1240px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 10rem;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .contact--info {
@@ -146,43 +146,43 @@
 }
 
 @media screen and (max-width:1000px) {
-    .fixed--email {
-        display: none;
-    }
-
-    .divider--right {
-        display: none;
-    }
-
-    .divider--left {
-        display: none;
-    }
-
-    .fixed--icons {
-        display: none;
-    }
-
-    .top--icon {
-        bottom: 1rem;
-        right: 1rem;
-    }
-
-    .astronaut {
-        display: none;
-    }
-}
-
-
-@media screen and (max-width:1000px) {
     .contact {
         padding: 0 2rem;
     }
 
     .contact--container {
         flex-direction: column;
+
     }
 }
 
-@media screen and (max-width:640px) {}
+@media screen and (max-width:640px) {
+    .contact--container {
+        margin-top: 8rem;
+        gap: 4rem;
+    }
 
-@media screen and (max-width:360px) {}
+    .contact--info {
+        gap: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .contact--info span {
+        margin-left: 0.5rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .contact--container {
+        margin-top: 4rem;
+    }
+
+    .contact--info span {
+        margin-left: 0.5rem;
+        font-size: 1.3rem;
+    }
+}
