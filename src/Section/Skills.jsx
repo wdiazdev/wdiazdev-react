@@ -30,8 +30,8 @@ export default function Skills() {
 
                 <div className='skills--titles'>
 
-                    <span>Front-end</span>
-                    <span>Back-end</span>
+                    <span>Frontend</span>
+                    <span>Backend</span>
                     <span>UI/UX</span>
 
                 </div>

@@ -6,6 +6,7 @@
     background: #fff;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 4rem;
 }
 
 .circle::before {

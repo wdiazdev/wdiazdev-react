@@ -10,7 +10,7 @@
 
 .skills--container {
     max-width: 1240px;
-    margin: 12rem auto;
+    margin: 8rem auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
@@ -43,7 +43,6 @@
 
 .skills--titles {
     position: relative;
-    bottom: 6rem;
     margin: 0 auto;
     max-width: 1240px;
     display: flex;

@@ -12,7 +12,8 @@
 .card--container {
     position: relative;
     max-width: 1240px;
-    margin: 10rem auto;
+    margin: 0 auto;
+    margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
