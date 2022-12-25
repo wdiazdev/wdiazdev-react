@@ -83,7 +83,7 @@ export default function Contact() {
                         <textarea name='message' required='required' />
                     </div>
 
-                    <input type='submit' value='Send' />
+                    <input type='submit' value='Send' className='btn' />
 
                     {sent ?
                         <p className='msg--sent tracking-in-expand-fwd-top'>

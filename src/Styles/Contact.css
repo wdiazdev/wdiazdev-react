@@ -3,6 +3,9 @@
     min-height: 100vh;
     width: 100%;
     padding: 0 4rem;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url('/src/assets/loaderbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact--container {
@@ -24,7 +27,12 @@
     font-size: 2rem;
 }
 
-.contact--info span {
+.contact--icon {
+    display: flex;
+    align-items: center;
+}
+
+.contact--icon span {
     margin-left: 1rem;
     background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
     -webkit-background-clip: text;
@@ -40,6 +48,8 @@
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+    box-shadow: 0px 0px 10px 4px #00ffff;
+    padding: 1rem;
 }
 
 .input--container {
@@ -100,17 +110,29 @@
 .form textarea:valid,
 .form textarea:focus {
     border: 2px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
 }
 
-.form input[type=submit] {
+.btn {
     width: 100%;
-    font-size: 3rem;
-    background: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #000;
     outline: none;
     padding: 1rem;
     border: 1px solid #00ffff;
     border-radius: 2rem;
     cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover {
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+    color: #fff;
+    background: transparent;
+    box-shadow: 0 0 10px #00ffff;
 }
 
 .msg--sent {
@@ -174,6 +196,24 @@
     .form {
         width: 100%;
     }
+
+    .input--container input {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .input--container>span {
+        left: 1.5rem;
+        top: 1.3rem;
+        font-size: 1rem;
+
+    }
+
+    .input--container input:valid~span,
+    .input--container input:focus~span {
+        transform: translateX(0.5rem) translateY(-2rem);
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -184,5 +224,22 @@
     .contact--info span {
         margin-left: 0.5rem;
         font-size: 1.3rem;
+    }
+
+    .input--container input {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .input--container>span {
+        left: 1rem;
+        top: 1rem;
+        font-size: 1rem;
+    }
+
+    .input--container input:valid~span,
+    .input--container input:focus~span {
+        transform: translateX(0.5rem) translateY(-1.7rem);
+        font-size: 1.2rem;
     }
 }
