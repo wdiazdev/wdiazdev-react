@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { HashRouter } from 'react-router-dom';
 import './App.css';
+import Footer from './Components/Footer';
 import Loader from './Components/Loader';
 import Navbar from './Components/Navbar';
 import About from './Section/About';
@@ -39,6 +40,7 @@ function App() {
             <Skills />
             <Work />
             <Contact />
+            <Footer />
           </>
         }
 

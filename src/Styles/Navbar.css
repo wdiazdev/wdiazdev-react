@@ -102,7 +102,6 @@
         justify-content: center;
         align-items: center;
         background: rgba(0, 0, 0, .9);
-        box-shadow: 0 0 10px #00ffff;
         transition: 0.3s ease-in;
     }
 
