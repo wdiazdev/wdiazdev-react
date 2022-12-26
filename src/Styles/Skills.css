@@ -2,7 +2,7 @@
     position: relative;
     min-height: 100vh;
     width: 100%;
-    padding: 2rem 4rem;
+    padding: 0rem 4rem;
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url('/src/assets/skillsbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,7 +95,6 @@
     }
 
     .skills--container {
-        margin-top: 8rem;
         grid-template-columns: repeat(3, 1fr);
     }
 

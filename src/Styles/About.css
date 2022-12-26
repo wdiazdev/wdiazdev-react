@@ -9,17 +9,21 @@
 }
 
 .about--container {
+    position: relative;
     max-width: 1240px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    margin-top: 10rem;
+    margin: 0rem auto;
+    margin-top: 8rem;
     gap: 1rem;
 }
 
+.info {
+    margin-bottom: 2rem;
+}
+
 .about--container p {
-    margin: 1rem 0;
     font-size: 1.5rem;
 }
 
@@ -35,7 +39,6 @@
     }
 
     .about--container {
-        margin-top: 4rem;
         flex-direction: column;
     }
 
