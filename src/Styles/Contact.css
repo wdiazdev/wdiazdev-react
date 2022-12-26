@@ -121,7 +121,7 @@
     background: #000;
     outline: none;
     padding: 1rem;
-    border: 1px solid #00ffff;
+    border: 1px solid #00FFFF;
     border-radius: 1rem;
     cursor: pointer;
     text-transform: uppercase;
@@ -132,7 +132,7 @@
     letter-spacing: 4px;
     color: #fff;
     background: transparent;
-    box-shadow: 0 0 10px #00ffff;
+    box-shadow: 0 0 10px #ffffff;
 }
 
 .msg--sent {

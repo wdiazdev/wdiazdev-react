@@ -30,6 +30,10 @@
     overflow: hidden;
 }
 
+.card--container:hover .card:not(:hover) {
+    opacity: 0.3;
+}
+
 .card img {
     position: absolute;
     top: 0;
