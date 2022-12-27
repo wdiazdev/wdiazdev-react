@@ -51,7 +51,7 @@
     gap: 1.5rem;
     box-shadow: 0px 0px 10px 4px #00ffff;
     padding: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .input--container {
@@ -114,7 +114,7 @@
     box-shadow: 0 0 10px #00ffff;
 }
 
-.contact--btn {
+#contact--btn {
     width: 90%;
     font-size: 1rem;
     color: #fff;
@@ -128,7 +128,7 @@
     transition: 0.2s ease-in;
 }
 
-.contact--btn:hover {
+#contact--btn:hover {
     box-shadow: 0 0 20px #ffffff;
     background: transparent;
 }
@@ -211,6 +211,10 @@
     .input--container input:focus~span {
         transform: translateX(0.5rem) translateY(-2rem);
         font-size: 1.2rem;
+    }
+
+    .msg--sent {
+        font-size: 1rem;
     }
 }
 

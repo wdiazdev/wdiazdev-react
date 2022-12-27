@@ -6,7 +6,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 4rem;
-    box-shadow: 0 0 20px #d40071;
+    box-shadow: 0 0 10px #d40071;
 }
 
 .circle::after {
