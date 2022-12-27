@@ -16,6 +16,7 @@
     background: linear-gradient(320deg, #00ffff, #d40071);
     transition: 0.5s;
     animation: animate 4s linear infinite;
+    overflow: hidden;
 }
 
 .circle:hover::before {
@@ -40,6 +41,7 @@
     background: #191c32;
     border-radius: 50%;
     z-index: 1;
+    overflow: hidden;
 }
 
 .box {
@@ -84,8 +86,6 @@
     -webkit-text-fill-color: transparent;
     transition: 0.3s ease-in;
 }
-
-.box a:hover {}
 
 @media screen and (max-width:640px) {
     .circle {
