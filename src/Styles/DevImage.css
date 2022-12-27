@@ -6,30 +6,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 4rem;
-}
-
-.circle::before {
-    content: '';
-    position: absolute;
-    inset: -10px 140px;
-    background: linear-gradient(320deg, #00ffff, #d40071);
-    transition: 0.5s;
-    animation: animate 4s linear infinite;
-    overflow: hidden;
-}
-
-.circle:hover::before {
-    inset: -20px 0px;
-}
-
-@keyframes animate {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+    box-shadow: 0 0 20px #d40071;
 }
 
 .circle::after {
@@ -86,17 +63,17 @@
 }
 
 @media screen and (max-width:640px) {
-    /* .circle {
+    .circle {
         width: 350px;
         height: 350px;
-    } */
+    }
 }
 
 @media screen and (max-width:360px) {
-    /* .circle {
+    .circle {
         width: 300px;
         height: 300px;
-    } */
+    }
 
     .box a {
         font-size: 1.5rem;
