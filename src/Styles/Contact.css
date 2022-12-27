@@ -114,7 +114,7 @@
     box-shadow: 0 0 10px #00ffff;
 }
 
-.btn {
+.contact--btn {
     width: 90%;
     font-size: 1rem;
     color: #fff;
@@ -128,7 +128,7 @@
     transition: 0.2s ease-in;
 }
 
-.btn:hover {
+.contact--btn:hover {
     box-shadow: 0 0 20px #ffffff;
     background: rgb(0, 0, 0);
     background: radial-gradient(circle, rgba(0, 0, 0, 1) 2%, rgba(0, 255, 255, 1) 47%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1) 100%);
