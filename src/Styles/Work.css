@@ -151,9 +151,7 @@
 }
 
 @media screen and (max-width:460px) {
-    .card--container {
-        margin: 8rem auto;
-    }
+    .card--container {}
 
     .card {
         width: 320px;
@@ -183,9 +181,7 @@
         padding: 1rem;
     }
 
-    .card--container {
-        margin: 8rem auto;
-    }
+    .card--container {}
 
     .card {
         width: 320px;
