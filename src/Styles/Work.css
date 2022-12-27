@@ -28,6 +28,7 @@
     border-radius: 10px;
     box-shadow: 0 0 10px #00ffff;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .card--container:hover .card:not(:hover) {
@@ -151,7 +152,6 @@
 }
 
 @media screen and (max-width:460px) {
-    .card--container {}
 
     .card {
         width: 320px;
@@ -180,8 +180,6 @@
     .work {
         padding: 1rem;
     }
-
-    .card--container {}
 
     .card {
         width: 320px;

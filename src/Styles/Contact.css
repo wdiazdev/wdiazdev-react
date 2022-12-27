@@ -10,10 +10,10 @@
 
 .contact--container {
     position: relative;
+    max-width: 1240px;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1240px;
     margin: 0 auto;
     margin-top: 8rem;
     gap: 4rem;
