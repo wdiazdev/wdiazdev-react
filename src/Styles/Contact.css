@@ -130,8 +130,7 @@
 
 .contact--btn:hover {
     box-shadow: 0 0 20px #ffffff;
-    background: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgba(0, 0, 0, 1) 2%, rgba(0, 255, 255, 1) 47%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1) 100%);
+    background: transparent;
 }
 
 .msg--sent {
