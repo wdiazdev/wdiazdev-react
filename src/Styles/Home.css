@@ -217,8 +217,8 @@ p {
 
 .astronaut {
     position: absolute;
-    top: 16rem;
-    right: 6rem;
+    top: 10rem;
+    right: 4rem;
     width: 250px;
     transform: scaleX(-1);
 }
