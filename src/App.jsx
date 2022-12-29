@@ -8,7 +8,7 @@ import About from './Section/About';
 import Contact from './Section/Contact';
 import Home from './Section/Home';
 import Skills from './Section/Skills';
-import Work from './Section/Work';
+import Projects from './Section/Projects';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 2500)
+    }, 3000)
 
   }, []);
 
@@ -38,7 +38,7 @@ function App() {
             <Home />
             <About />
             <Skills />
-            <Work />
+            <Projects />
             <Contact />
             <Footer />
           </>

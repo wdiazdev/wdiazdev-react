@@ -29,7 +29,7 @@ export default function Navbar() {
                 <a onClick={handleClick} className='focus-in-expand' href='#home'>Home</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#about'>About</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#skills'>Skills</a>
-                <a onClick={handleClick} className='focus-in-expand' href='#work'>Work</a>
+                <a onClick={handleClick} className='focus-in-expand' href='#projects'>Projects</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#contact'>Contact</a>
             </div>
             <div className='hamburger--menu' onClick={handleClick}>

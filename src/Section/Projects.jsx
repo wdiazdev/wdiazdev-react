@@ -1,11 +1,11 @@
 import Header from '../Components/Header';
-import '../Styles/Work.css';
+import '../Styles/Projects.css';
 import WorkData from '../Data/WorkData';
 import { FaGithubAlt, FaCode } from 'react-icons/fa';
 
 export default function Work() {
     return (
-        <div className='work' id='work'>
+        <div className='work' id='projects'>
 
             <Header header={'My Work'}
                 subHeader={"Some things I've built."} />
