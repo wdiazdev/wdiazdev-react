@@ -51,7 +51,7 @@ export default function Home() {
                     </ul>
                 </div>
 
-                <div className='main--info'>
+                <div className='main--info text-focus-in' >
                     <h3>Hi there, I'm</h3>
                     <h1>Wilfredo Diaz</h1>
                     <p>I am a Front-End Software Engineer based in Tampa Florida.</p>

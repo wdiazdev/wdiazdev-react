@@ -13,7 +13,7 @@ export default function Skills() {
 
             <div>
 
-                <div className="skills--container">
+                <div className='skills--container' data-aos="zoom-in" data-aos-duration='1000'>
 
                     {
                         IconData.map((item, index) => {
@@ -28,11 +28,11 @@ export default function Skills() {
 
                 </div>
 
-                <div className='skills--titles'>
+                <div className='skills--titles' >
 
-                    <span>Frontend</span>
-                    <span>Backend</span>
-                    <span>UI/UX</span>
+                    <span data-aos="zoom-in-right">Frontend</span>
+                    <span data-aos="zoom-out">Backend</span>
+                    <span data-aos="zoom-in-left">UI/UX</span>
 
                 </div>
 

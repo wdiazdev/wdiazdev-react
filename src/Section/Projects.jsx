@@ -10,7 +10,7 @@ export default function Work() {
             <Header header={'My Work'}
                 subHeader={"Some things I've built."} />
 
-            <div className='card--container'>
+            <div className='card--container' data-aos="fade-up" data-aos-duration='1000'>
 
                 {
                     WorkData.map((item, index) => {

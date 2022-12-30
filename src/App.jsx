@@ -9,6 +9,8 @@ import Contact from './Section/Contact';
 import Home from './Section/Home';
 import Skills from './Section/Skills';
 import Projects from './Section/Projects';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
@@ -21,6 +23,10 @@ function App() {
       setLoading(false)
     }, 3000)
 
+  }, []);
+
+  useEffect(() => {
+    AOS.init();
   }, []);
 
   return (

@@ -37,7 +37,7 @@ export default function Contact() {
 
             <div className='contact--container'>
 
-                <div className='contact--info'>
+                <div className='contact--info' data-aos="fade-right" data-aos-duration='1000'>
 
                     <div className='contact--icon'>
 
@@ -62,7 +62,7 @@ export default function Contact() {
 
                 </div>
 
-                <form ref={form} onSubmit={sendEmail} className='form'>
+                <form ref={form} onSubmit={sendEmail} className='form' data-aos="fade-up" data-aos-duration='1000'>
 
                     <div className='input--container'>
                         <input type='text' name='from_name' required='required' />

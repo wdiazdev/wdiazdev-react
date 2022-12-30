@@ -18,3 +18,9 @@ body {
   background-color: #000;
   font-family: 'Montserrat', sans-serif;
 }
+
+/* TO SET ANIMATION DURATION FOR UP TO 4000MS */
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+  transition-duration: 4000ms;
+}
