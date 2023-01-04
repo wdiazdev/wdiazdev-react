@@ -2,6 +2,7 @@ import '../Styles/Footer.css';
 import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5 } from 'react-icons/fa';
 
 export default function Footer() {
+
     return (
         <div className='footer'>
             <p>Designed & Built by <span>Wilfredo Diaz</span></p>

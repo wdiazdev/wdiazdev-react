@@ -27,7 +27,7 @@ export default function Navbar() {
             <h3>WD</h3>
             <div className={click ? 'nav--menu active' : 'nav--menu'}>
                 <a onClick={handleClick} className='focus-in-expand' href='#home'>Home</a>
-                <a onClick={handleClick} className='focus-in-expand' href='#about'>About</a>
+                <a onClick={handleClick} className='focus-in-expand' href='#about'>About Me</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#skills'>Skills</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#projects'>Projects</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#contact'>Contact</a>
