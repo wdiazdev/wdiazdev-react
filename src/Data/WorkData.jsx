@@ -15,6 +15,14 @@ const WorkData = [
         projectUrl: 'https://github.com/wdiazdev/movie-app',
         ghPagesUrl: 'https://wdiazdev.github.io/movie-app/',
     },
+    {
+        name: 'BitOracle',
+        tech: 'REACT - CSS3 - JSX - FIREBASE',
+        img: './bitoracle.png',
+        description: 'PROJECT UNDER DEVELOPMENT...',
+        projectUrl: 'https://github.com/wdiazdev/Bitoracle',
+        ghPagesUrl: 'https://wdiazdev.github.io/Bitoracle/',
+    },
 ]
 
 export default WorkData;
