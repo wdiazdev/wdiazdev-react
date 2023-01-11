@@ -9,7 +9,7 @@ const WorkData = [
     },
     {
         name: 'Movie Zone',
-        tech: 'HTML5 - CSS3 - JS',
+        tech: 'HTML5 - CSS3 - JavaScript',
         img: './moviezone.png',
         description: 'Movie Zone: API integration is implemented to allow users to query their favorite movies overview, release date, and average rating. The application provides data about the 20 most popular movies in real time. Get some popcorn and try it!!',
         projectUrl: 'https://github.com/wdiazdev/movie-app',
@@ -17,7 +17,7 @@ const WorkData = [
     },
     {
         name: 'BitOracle',
-        tech: 'REACT - CSS3 - JSX - FIREBASE',
+        tech: 'React - CSS3 - JSX - Firebase',
         img: './bitoracle.png',
         description: 'PROJECT UNDER DEVELOPMENT - BitOracle is a crypto currency dashboard for users to be able to track all their assets on one page and with the ability to provide market data in real time and market-related news.',
         projectUrl: 'https://github.com/wdiazdev/Bitoracle',
