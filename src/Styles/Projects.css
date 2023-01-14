@@ -31,10 +31,6 @@
     margin-bottom: 2rem;
 }
 
-.card--container:hover .card:not(:hover) {
-    opacity: 0.3;
-}
-
 .card img {
     position: absolute;
     top: 0;
@@ -126,10 +122,6 @@
 @media screen and (max-width: 1000px) {
     .work {
         padding: 0 2rem;
-    }
-
-    .card--container:hover .card:not(:hover) {
-        opacity: 1;
     }
 }
 
