@@ -54,8 +54,8 @@ export default function Home() {
                 <div className='main--info text-focus-in' >
                     <h3>Hi there, I'm</h3>
                     <h1>Wilfredo Diaz</h1>
-                    <p>I am a Front-End Software Engineer based in Tampa Florida.</p>
-                    <p>I'm passionate about turning ideas into real-life products.</p>
+                    <p>I am a Front-End Software Engineer based in Florida.</p>
+                    <p>I'm passionate about creating web applications with a great user experience and an eye-catching user interface.</p>
                     <img src={Astronaut} alt='Astronaut' className='astronaut text-focus-in' />
                 </div>
             </div>
