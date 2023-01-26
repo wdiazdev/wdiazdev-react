@@ -13,7 +13,7 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_s6vj00j', 'template_x9wlhdd', e.target, '5Ov3pj3qqAysxs7SO')
+        emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE, import.meta.env.VITE_EMAILJS_TEMPLATE, e.target, import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
