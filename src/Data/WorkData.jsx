@@ -19,7 +19,7 @@ const WorkData = [
         name: 'BitOracle',
         tech: 'React - CSS3 - JSX - Firebase',
         img: './bitoracle.png',
-        description: 'PROJECT UNDER DEVELOPMENT - BitOracle is a crypto currency dashboard for users to be able to track all their assets on one page and with the ability to provide market data in real time and market-related news.',
+        description: 'BitOracle is a crypto currency dashboard for users to be able to track all their assets on one page and with the ability to provide market data in real time and market-related news.',
         projectUrl: 'https://github.com/wdiazdev/Bitoracle',
         ghPagesUrl: 'https://wdiazdev.github.io/Bitoracle/',
     },
