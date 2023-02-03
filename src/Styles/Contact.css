@@ -135,12 +135,8 @@
 }
 
 .msg--sent {
-    position: absolute;
-    bottom: -4rem;
-    font-size: 1.5rem;
-    background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;
+    color: #00FF00;
 }
 
 .tracking-in-expand-fwd-top {
