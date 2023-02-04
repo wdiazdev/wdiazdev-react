@@ -21,6 +21,7 @@
     background: linear-gradient(to right, #FFFFFF 10%, #00FFFF 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
 }
 
 h3 {
