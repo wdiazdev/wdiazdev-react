@@ -13,9 +13,9 @@ export default function Work() {
             <div className='card--container' data-aos="fade-up" data-aos-duration='1000'>
 
                 {
-                    WorkData.map((item, index) => {
+                    WorkData.map((item) => {
                         return (
-                            <div key={index} className='card'>
+                            <div key={item.id} className='card'>
 
                                 <img src={item.img} alt='Card' />
 

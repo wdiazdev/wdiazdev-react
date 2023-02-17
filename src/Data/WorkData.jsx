@@ -1,5 +1,6 @@
 const WorkData = [
     {
+        id: 1,
         name: 'Das-café',
         tech: 'React - TypeScript - Node - CSS3',
         img: './das-cafe.png',
@@ -8,6 +9,7 @@ const WorkData = [
         ghPagesUrl: 'https://wdiazdev.github.io/Das-Cafe/',
     },
     {
+        id: 2,
         name: 'FilmTime',
         tech: 'React - CSS3 - Node - Firebase',
         img: './filmtime.png',
@@ -16,6 +18,7 @@ const WorkData = [
         ghPagesUrl: 'https://wdiazdev.github.io/filmtime/',
     },
     {
+        id: 3,
         name: 'BitOracle',
         tech: 'React - CSS3 - Node - Firebase - ChartJs',
         img: './bitoracle.png',
