@@ -61,20 +61,20 @@
 }
 
 .card--info h3 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .card--info span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #00ffff;
 }
 
 .card--info p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .work--icons {
@@ -136,11 +136,11 @@
     }
 
     .card--info h3 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 
     .card--info span {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
 
     }
 
