@@ -1,7 +1,7 @@
 import Header from '../Components/Header';
 import '../Styles/Projects.css';
 import WorkData from '../Data/WorkData';
-import { FaGithubAlt, FaCode } from 'react-icons/fa';
+import { FaCode } from 'react-icons/fa';
 
 export default function Work() {
     return (
@@ -39,9 +39,9 @@ export default function Work() {
                                         <a
                                             href={item.ghPagesUrl}
                                             target='_blank'
-                                            className='card--icon'
+                                            className='card--icon live'
                                         >
-                                            <FaGithubAlt />
+                                            LIVE
                                         </a>
                                     </div>
 

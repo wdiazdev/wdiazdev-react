@@ -99,9 +99,17 @@
     transition: 0.3s;
 }
 
+.card--icon.live {
+    font-size: 0.8rem;
+}
+
 .card .card--icon:hover {
     font-size: 2.5rem;
     box-shadow: 0 0 20px #fff;
+}
+
+.card--icon.live:hover {
+    font-size: 1.2rem;
 }
 
 .card:hover .card--info {
