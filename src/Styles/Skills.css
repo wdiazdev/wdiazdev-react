@@ -6,7 +6,7 @@
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url('/src/assets/skillsbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 0px 50px #d40071;
+    box-shadow: 0px 0px 20px #d40071;
 }
 
 .skills--container {

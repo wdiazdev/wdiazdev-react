@@ -19,8 +19,6 @@ export default function Home() {
         }
     };
 
-    window.addEventListener('scroll', toggleVisible);
-
     return (
         <div className='main' id='home'>
 
