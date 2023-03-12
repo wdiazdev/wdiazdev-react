@@ -17,25 +17,39 @@ export default function About() {
                     <div className='info'>
 
                         <p data-aos="fade-up" data-aos-duration='1000'>
-                            Hi, my name is <span>Wilfredo Diaz</span>. My interest in web
-                            development started back in 2020 when I discovered my passion
-                            for technology, from software engineering to UI/UX. I decided to
-                            learn Python as my first programming language and managed to
-                            continue to learn other languages, frameworks, and libraries.
+                            Hello, my name is <span>Wilfredo Diaz</span> and I am a software engineer
+                            with a strong passion for creating elegant
+                            and intuitive <span>user interfaces</span> that deliver seamless
+                            experiences for users. I am driven by my love for <span>design </span>
+                            and technology, which has led me to pursue a career in
+                            web development where I can use my skills to bring
+                            creative ideas to life.
                         </p>
 
                         <p data-aos="fade-up" data-aos-duration='1000'>
-                            My goal is to stay on the cutting edge of technological advancements.
-                            I have enhanced my <span>technical abilities</span> and cultivated a
-                            reputation as a major contributor through <span>problem-solving </span>
-                            and <span>teamwork</span>.
+                            My approach to development is highly collaborative,
+                            and I firmly believe that effective <span>communication</span> and
+                            <span> teamwork</span> are essential for delivering successful projects.
+                            I am committed to gaining a deep understanding of each
+                            project's unique requirements, working closely with
+                            <span> clients</span> and <span>stakeholders</span> to ensure that their vision
+                            is fully realized.
                         </p>
 
                         <p data-aos="fade-up" data-aos-duration='1000'>
-                            My focus these days is building responsive websites that are easy
-                            to use and built with the best practices. My main area of expertise
-                            is front-end development. I spend my free time on travel
-                            adventures, health and fitness, and learning about new technologies.
+                            I am also an avid attendee of tech <span>meetups</span> and
+                            conferences, constantly seeking to expand my knowledge
+                            and stay up-to-date on the latest trends and best
+                            practices in the industry. Whether I'm learning
+                            about new <span>technologies</span> or networking with other
+                            developers, I am always eager to discover new ways
+                            to improve my craft.
+                        </p>
+
+                        <p data-aos="fade-up" data-aos-duration='1000'>
+                            Thank you for taking the time to learn a little bit about
+                            me, and I look forward to the <span>opportunity</span> to collaborate
+                            with you on your next project.
                         </p>
 
                     </div>
