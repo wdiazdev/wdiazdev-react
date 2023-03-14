@@ -28,8 +28,8 @@ export default function Navbar() {
             <div className={click ? 'nav--menu active' : 'nav--menu'}>
                 <a onClick={handleClick} className='focus-in-expand' href='#home'>Home</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#about'>About Me</a>
-                <a onClick={handleClick} className='focus-in-expand' href='#skills'>Skills</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#projects'>Projects</a>
+                <a onClick={handleClick} className='focus-in-expand' href='#skills'>Skills</a>
                 <a onClick={handleClick} className='focus-in-expand' href='#contact'>Contact</a>
             </div>
             <div className='hamburger--menu' onClick={handleClick}>

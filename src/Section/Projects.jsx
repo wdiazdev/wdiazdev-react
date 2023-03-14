@@ -39,7 +39,7 @@ export default function Work() {
                                         <a
                                             href={item.ghPagesUrl}
                                             target='_blank'
-                                            className='card--icon live'
+                                            className='card--icon--live'
                                         >
                                             LIVE
                                         </a>

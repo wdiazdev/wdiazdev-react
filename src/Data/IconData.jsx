@@ -59,12 +59,12 @@ const IconData = [
         name: 'Express.js'
     },
     {
-        icon: <FaIcons.FaLaptopCode />,
-        name: 'UI/UX'
+        icon: <FaIcons.FaDatabase />,
+        name: 'SQL'
     },
     {
-        icon: <FaIcons.FaTerminal />,
-        name: 'Command Line'
+        icon: <SiIcons.SiPostgresql />,
+        name: 'PostgreSQL'
     },
 ]
 

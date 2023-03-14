@@ -93,19 +93,36 @@
     background: #333;
     border: 2px solid #d40071;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #00ffff;
     box-shadow: 0 0 10px #00ffff;
     transition: 0.3s;
 }
 
-.card--icon.live {
+.card--icon--live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border: 2px solid #d40071;
+    border-radius: 50%;
     font-size: 0.8rem;
+    text-align: center;
+    color: #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+    transition: 0.3s;
+}
+
+.card--icon--live:hover {
+    font-size: 1.1rem;
+    box-shadow: 0 0 20px #fff;
 }
 
 .card .card--icon:hover {
-    font-size: 2.5rem;
+    font-size: 2rem;
     box-shadow: 0 0 20px #fff;
 }
 
