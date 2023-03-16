@@ -1,6 +1,15 @@
 const WorkData = [
     {
         id: 1,
+        name: 'BitOracle',
+        tech: 'React - CSS3 - Node - Firebase - ChartJs',
+        img: './bitoracle.png',
+        description: 'BitOracle is a crypto currency dashboard that allows users to track all their assets on one page and provides market data in real time.',
+        projectUrl: 'https://github.com/wdiazdev/Bitoracle',
+        ghPagesUrl: 'https://wdiazdev.github.io/Bitoracle/',
+    },
+    {
+        id: 2,
         name: 'Das-café',
         tech: 'React - TypeScript - Node - CSS3',
         img: './das-cafe.png',
@@ -9,23 +18,14 @@ const WorkData = [
         ghPagesUrl: 'https://wdiazdev.github.io/Das-Cafe/',
     },
     {
-        id: 2,
+        id: 3,
         name: 'FilmTime',
         tech: 'React - CSS3 - Node - Firebase',
         img: './filmtime.png',
         description: "FilmTime: -Under Development - The application allows users to search for their favorite movies and TV shows, as well as save their favorites in a secure way that is unique to the user's authentication. FilmTime provides real-time data that updates every day.",
         projectUrl: 'https://github.com/wdiazdev/filmtime',
         ghPagesUrl: 'https://wdiazdev.github.io/filmtime/',
-    },
-    {
-        id: 3,
-        name: 'BitOracle',
-        tech: 'React - CSS3 - Node - Firebase - ChartJs',
-        img: './bitoracle.png',
-        description: 'BitOracle is a crypto currency dashboard that allows users to track all their assets on one page and provides market data in real time.',
-        projectUrl: 'https://github.com/wdiazdev/Bitoracle',
-        ghPagesUrl: 'https://wdiazdev.github.io/Bitoracle/',
-    },
+    }
 ]
 
 export default WorkData;
