@@ -1,244 +1,258 @@
 .contact {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    padding: 0 4rem;
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url('/src/assets/loaderbg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 4rem;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("/src/assets/loaderbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact--container {
-    position: relative;
-    max-width: 1240px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 8rem;
-    padding: 2rem 0;
-    gap: 4rem;
+  position: relative;
+  max-width: 1240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 2rem 0;
+  gap: 4rem;
 }
 
 .contact--info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .contact--icon {
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .contact--icon span {
-    margin-left: 1rem;
-    background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
-    font-weight: 500;
+  margin-left: 1rem;
+  background: linear-gradient(to right, #00ffff 0%, #d40071 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .form {
-    position: relative;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 1.5rem;
-    box-shadow: 0px 0px 10px 4px #00ffff;
-    padding: 2rem 1rem;
-    border-radius: 1rem;
+  position: relative;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: 0px 0px 10px 4px #00ffff;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
 }
 
 .input--container {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .input--container input {
-    width: 100%;
-    padding: 1rem;
-    border: 2px solid #C0C0C0;
-    background: transparent;
-    border-radius: 1rem;
-    outline: none;
-    font-size: 1rem;
-    color: #fff;
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #c0c0c0;
+  background: transparent;
+  border-radius: 1rem;
+  outline: none;
+  font-size: 1rem;
+  color: #fff;
 }
 
-.input--container>span {
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-    font-size: 1rem;
-    color: #C0C0C0;
-    transition: 0.5s;
+.input--container > span {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  font-size: 1rem;
+  color: #c0c0c0;
+  transition: 0.5s;
 }
 
-.input--container input:valid~span,
-.input--container input:focus~span {
-    color: #000;
-    transform: translateX(0.5rem) translateY(-1.5rem);
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0 15px;
-    background: #00ffff;
-    border-radius: 10px;
+.input--container input:valid ~ span,
+.input--container input:focus ~ span {
+  color: #000;
+  transform: translateX(0.5rem) translateY(-1.5rem);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 15px;
+  background: #00ffff;
+  border-radius: 10px;
 }
 
 .input--container input:valid,
 .input--container input:focus {
-    border: 2px solid #00ffff;
-    box-shadow: 0 0 10px #00ffff;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px #00ffff;
 }
 
 .form textarea {
-    width: 100%;
-    height: 100px;
-    padding: 1rem;
-    border: 2px solid #C0C0C0;
-    border-radius: 1rem;
-    outline: none;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
-    font-size: 1rem;
-    color: #fff;
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  border: 2px solid #c0c0c0;
+  border-radius: 1rem;
+  outline: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+  font-size: 1rem;
+  color: #fff;
 }
 
 .form textarea:valid,
 .form textarea:focus {
-    border: 2px solid #00ffff;
-    box-shadow: 0 0 10px #00ffff;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px #00ffff;
 }
 
 #contact--btn {
-    width: 100%;
-    font-size: 1rem;
-    color: #fff;
-    background: #000;
-    outline: none;
-    padding: 1rem;
-    border: 1px solid #00FFFF;
-    border-radius: 1rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  background: #000;
+  outline: none;
+  padding: 1rem;
+  border: 1px solid #00ffff;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s ease-in;
 }
 
 #contact--btn:hover {
-    box-shadow: 0 0 20px #ffffff;
-    background: transparent;
-}
-
-.msg--sent {
-    font-size: 1.2rem;
-    color: #00FF00;
+  box-shadow: 0 0 20px #ffffff;
+  background: transparent;
 }
 
 .tracking-in-expand-fwd-top {
-    animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+.small--Loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #00ffff;
+  width: 26px;
+  height: 26px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes tracking-in-expand-fwd-top {
-    0% {
-        letter-spacing: -0.5em;
-        -webkit-transform: translateZ(-700px) translateY(-500px);
-        transform: translateZ(-700px) translateY(-500px);
-        opacity: 0;
-    }
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+    transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
 
-    40% {
-        opacity: 0.6;
-    }
+  40% {
+    opacity: 0.6;
+  }
 
-    100% {
-        -webkit-transform: translateZ(0) translateY(0);
-        transform: translateZ(0) translateY(0);
-        opacity: 1;
-    }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
 }
 
-@media screen and (max-width:1000px) {
-    .contact {
-        padding: 0 2rem;
-    }
+@media screen and (max-width: 1000px) {
+  .contact {
+    padding: 0 2rem;
+  }
 
-    .contact--container {
-        flex-direction: column;
-
-    }
+  .contact--container {
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width:640px) {
-    .contact--container {
-        margin-top: 8rem;
-        gap: 4rem;
-    }
+@media screen and (max-width: 640px) {
+  .contact--container {
+    margin-top: 8rem;
+    gap: 4rem;
+  }
 
-    .contact--info {
-        gap: 1.5rem;
-        font-size: 1.5rem;
-    }
+  .contact--info {
+    gap: 1.5rem;
+    font-size: 1.5rem;
+  }
 
-    .contact--info span {
-        margin-left: 0.5rem;
-    }
+  .contact--info span {
+    margin-left: 0.5rem;
+  }
 
-    .form {
-        width: 100%;
-    }
+  .form {
+    width: 100%;
+  }
 
-    .input--container input {
-        padding: 1rem;
-        font-size: 1.5rem;
-    }
+  .input--container input {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
 
-    .input--container>span {
-        left: 1.5rem;
-        top: 1.3rem;
-        font-size: 1rem;
+  .input--container > span {
+    left: 1.5rem;
+    top: 1.3rem;
+    font-size: 1rem;
+  }
 
-    }
+  .input--container input:valid ~ span,
+  .input--container input:focus ~ span {
+    transform: translateX(0.5rem) translateY(-2rem);
+    font-size: 1.2rem;
+  }
 
-    .input--container input:valid~span,
-    .input--container input:focus~span {
-        transform: translateX(0.5rem) translateY(-2rem);
-        font-size: 1.2rem;
-    }
-
-    .msg--sent {
-        font-size: 1rem;
-    }
+  .msg--sent {
+    font-size: 1rem;
+  }
 }
 
-@media screen and (max-width:360px) {
-    .contact--container {
-        margin-top: 4rem;
-    }
+@media screen and (max-width: 360px) {
+  .contact--container {
+    margin-top: 4rem;
+  }
 
-    .contact--info span {
-        margin-left: 0.5rem;
-        font-size: 1.3rem;
-    }
+  .contact--info span {
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+  }
 
-    .input--container input {
-        padding: 1rem;
-        font-size: 1rem;
-    }
+  .input--container input {
+    padding: 1rem;
+    font-size: 1rem;
+  }
 
-    .input--container>span {
-        left: 1rem;
-        top: 1rem;
-        font-size: 1rem;
-    }
+  .input--container > span {
+    left: 1rem;
+    top: 1rem;
+    font-size: 1rem;
+  }
 
-    .input--container input:valid~span,
-    .input--container input:focus~span {
-        transform: translateX(0.5rem) translateY(-1.7rem);
-        font-size: 1.2rem;
-    }
+  .input--container input:valid ~ span,
+  .input--container input:focus ~ span {
+    transform: translateX(0.5rem) translateY(-1.7rem);
+    font-size: 1.2rem;
+  }
 }
