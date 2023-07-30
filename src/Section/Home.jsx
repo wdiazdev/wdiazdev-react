@@ -2,12 +2,17 @@ import "../Styles/Home.css"
 import { FaGithub, FaLinkedin, FaAngleDoubleDown, FaAngleUp } from "react-icons/fa"
 import { useEffect, useState } from "react"
 import Astronaut from "../assets/astronot.gif"
-import { boolean } from "yup"
+import { Atropos } from "atropos"
 
 export default function Home() {
   const [visible, setVisible] = useState(false)
 
   const scrolled = document.documentElement.scrollTop
+
+  // const myAtropos = Atropos({
+  //   el: ".main--info",
+  //   // rest of parameters
+  // })
 
   useEffect(() => {
     if (scrolled > 300) {
