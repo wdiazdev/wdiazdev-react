@@ -24,9 +24,6 @@
   background: linear-gradient(to right, #ffffff 10%, #00ffff 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.4) 20px 2px 4px, rgba(0, 0, 0, 0.6) 25px 10px 5px 15px,
-    rgba(0, 0, 0, 0.2) 1px -3px 0px inset;
-  border-radius: 20px;
 }
 
 h3 {
@@ -270,9 +267,6 @@ p {
   }
   .main--info {
     padding: 0rem;
-
-    box-shadow: none;
-    border-radius: none;
   }
 }
 
