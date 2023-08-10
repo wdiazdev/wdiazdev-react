@@ -1,6 +1,6 @@
 import "../Styles/Contact.css"
 import Header from "../Components/Header"
-import { FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa"
+import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa"
 import emailjs from "@emailjs/browser"
 import { toast } from "sonner"
 import { useRef, useState } from "react"
@@ -57,11 +57,6 @@ export default function Contact() {
           <div className="contact--icon">
             <FaEnvelope />
             <span>wdiazdev@gmail.com</span>
-          </div>
-
-          <div className="contact--icon">
-            <FaPhone />
-            <span>407-437-8084</span>
           </div>
         </div>
 
