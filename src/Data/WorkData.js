@@ -31,6 +31,15 @@ const WorkData = [
   },
   {
     id: 4,
+    name: "Vaultify",
+    tech: "React Native - Expo - Tanstack",
+    img: "./vaultify.png",
+    description:
+      "Vaultify is  a  React Native application developed with Expo, is a tool for crypto enthusiasts and investors. It offers a seamless and intuitive experience, making crypto price tracking and market insights a breeze. Users can effortlessly stay up-to-date on real-time prices, historical data, and market trends.",
+    projectUrl: "https://github.com/wdiazdev/vaultify",
+  },
+  {
+    id: 5,
     name: "Das-café",
     tech: "React - TypeScript - Node - CSS3",
     img: "./das-cafe.png",

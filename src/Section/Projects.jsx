@@ -25,9 +25,11 @@ export default function Work() {
                   <a href={item.projectUrl} target="_blank" className="card--icon">
                     <FaCode />
                   </a>
-                  <a href={item.ghPagesUrl} target="_blank" className="card--icon--live">
-                    Live
-                  </a>
+                  {item.id !== 4 && (
+                    <a href={item.ghPagesUrl} target="_blank" className="card--icon--live">
+                      Live
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
