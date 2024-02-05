@@ -26,7 +26,7 @@ export default function Work() {
                     <FaCode />
                   </a>
                   <a href={item.ghPagesUrl} target="_blank" className="card--icon--live">
-                    LIVE
+                    Live
                   </a>
                 </div>
               </div>

@@ -1,10 +1,15 @@
 import * as FaIcons from "react-icons/fa"
 import * as SiIcons from "react-icons/si"
+import * as TbIcons from "react-icons/tb"
 
 const IconData = [
   {
     icon: <FaIcons.FaReact />,
     name: "React",
+  },
+  {
+    icon: <SiIcons.SiTypescript />,
+    name: "TypeScript",
   },
   {
     icon: <FaIcons.FaJsSquare />,
@@ -15,16 +20,12 @@ const IconData = [
     name: "Node.js",
   },
   {
-    icon: <SiIcons.SiTypescript />,
-    name: "TypeScript",
+    icon: <FaIcons.FaHtml5 />,
+    name: "HTML5",
   },
   {
     icon: <FaIcons.FaCss3Alt />,
     name: "CSS3",
-  },
-  {
-    icon: <FaIcons.FaHtml5 />,
-    name: "HTML5",
   },
   {
     icon: <FaIcons.FaSass />,
@@ -51,8 +52,8 @@ const IconData = [
     name: "Figma",
   },
   {
-    icon: <FaIcons.FaPython />,
-    name: "Python",
+    icon: <SiIcons.SiMongodb />,
+    name: "MongoDb",
   },
   {
     icon: <FaIcons.FaServer />,
@@ -65,6 +66,22 @@ const IconData = [
   {
     icon: <SiIcons.SiPostgresql />,
     name: "PostgreSQL",
+  },
+  {
+    icon: <SiIcons.SiPostman />,
+    name: "Postman",
+  },
+  {
+    icon: <SiIcons.SiFirebase />,
+    name: "Firebase",
+  },
+  {
+    icon: <SiIcons.SiExpo />,
+    name: "Expo",
+  },
+  {
+    icon: <TbIcons.TbBrandReactNative />,
+    name: "React Native",
   },
 ]
 

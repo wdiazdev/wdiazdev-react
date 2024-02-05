@@ -1,6 +1,6 @@
 .skills {
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
   padding: 0rem 4rem;
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("/src/assets/skillsbg.jpg");
@@ -11,7 +11,8 @@
 
 .skills--container {
   max-width: 1240px;
-  margin: 8rem auto;
+  margin: 6rem auto;
+  padding: 2rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
