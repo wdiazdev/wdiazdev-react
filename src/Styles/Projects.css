@@ -157,6 +157,10 @@
     width: 400px;
   }
 
+  .card img {
+    object-fit: cover;
+  }
+
   .card--info {
     gap: 0.3rem;
   }
