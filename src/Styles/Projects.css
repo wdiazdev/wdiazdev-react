@@ -155,7 +155,6 @@
 @media screen and (max-width: 700px) {
   .card {
     width: 400px;
-    height: 400px;
   }
 
   .card--info {
@@ -178,7 +177,7 @@
 @media screen and (max-width: 460px) {
   .card {
     width: 320px;
-    height: 300px;
+    height: 375px;
   }
 
   .card--info {
@@ -205,7 +204,7 @@
 
   .card {
     width: 320px;
-    height: 330px;
+    height: 350px;
   }
 
   .card--icon {
