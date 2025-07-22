@@ -1,61 +1,64 @@
 .about {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    padding: 0 4rem;
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url('/src/assets/aboutbg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 4rem;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("/src/assets/aboutbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about--container {
-    position: relative;
-    max-width: 1240px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0rem auto;
-    margin-top: 8rem;
-    gap: 1rem;
+  position: relative;
+  max-width: 1240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem auto;
+  margin-top: 8rem;
+  gap: 1rem;
 }
 
 .info {
-    margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6rem;
+  gap: 1rem;
 }
 
 .about--container p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .about--container span {
-    background: linear-gradient(to right, #00FFFF 0%, #d40071 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #00ffff 0%, #d40071 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width:1000px) {
-    .about {
-        padding: 0 2rem;
-    }
+@media screen and (max-width: 1000px) {
+  .about {
+    padding: 0 2rem;
+  }
 
-    .about--container {
-        flex-direction: column;
-    }
+  .about--container {
+    flex-direction: column;
+  }
 
-    .about--container p {
-        font-size: 1.3rem;
-    }
+  .about--container p {
+    font-size: 1.3rem;
+  }
 }
 
-@media screen and (max-width:640px) {
-    .about--container p {
-        font-size: 1.1rem;
-        text-align: center;
-    }
+@media screen and (max-width: 640px) {
+  .about--container p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 }
 
-@media screen and (max-width:360px) {
-    .about {
-        padding: 1rem;
-    }
+@media screen and (max-width: 360px) {
+  .about {
+    padding: 1rem;
+  }
 }

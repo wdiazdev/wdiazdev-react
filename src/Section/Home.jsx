@@ -2,17 +2,11 @@ import "../Styles/Home.css"
 import { FaGithub, FaLinkedin, FaAngleDoubleDown, FaAngleUp } from "react-icons/fa"
 import { useEffect, useState } from "react"
 import Astronaut from "../assets/astronot.gif"
-import { Atropos } from "atropos"
 
 export default function Home() {
   const [visible, setVisible] = useState(false)
 
   const scrolled = document.documentElement.scrollTop
-
-  // const myAtropos = Atropos({
-  //   el: ".main--info",
-  //   // rest of parameters
-  // })
 
   useEffect(() => {
     if (scrolled > 300) {
@@ -23,7 +17,7 @@ export default function Home() {
   }, [scrolled])
 
   return (
-    <div className="main" id="home">
+    <main className="main" id="home">
       <div className="main--container">
         <a href="#" className="fixed--email text-focus-in">
           wdiazdev@gmail.com
@@ -48,13 +42,13 @@ export default function Home() {
         </div>
 
         <div className="main--info text-focus-in">
-          <h3>Hi there, I'm</h3>
+          <h3>Hi there, I am</h3>
           <h1>Wilfredo Diaz</h1>
-          <p>I am a Software Engineer based in Florida.</p>
           <p>
-            I'm passionate about creating web applications with a great user experience and an eye-catching user
-            interface.
+            A Software Engineer focused on crafting web applications that offer seamless user
+            experiences and visually appealing interfaces.
           </p>
+
           <img src={Astronaut} alt="Astronaut" className="astronaut text-focus-in" />
         </div>
       </div>
@@ -76,6 +70,6 @@ export default function Home() {
           </li>
         </ul>
       </div>
-    </div>
+    </main>
   )
 }

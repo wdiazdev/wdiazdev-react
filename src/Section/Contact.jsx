@@ -1,6 +1,6 @@
 import "../Styles/Contact.css"
 import Header from "../Components/Header"
-import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa"
+import { FaEnvelope } from "react-icons/fa"
 import emailjs from "@emailjs/browser"
 import { toast } from "sonner"
 import { useRef, useState } from "react"
@@ -48,11 +48,6 @@ export default function Contact() {
 
       <div className="contact--container">
         <div className="contact--info" data-aos="fade-right" data-aos-duration="1000">
-          <div className="contact--icon">
-            <FaMapMarkerAlt />
-            <span>Tampa, Florida</span>
-          </div>
-
           <div className="contact--icon">
             <FaEnvelope />
             <span>wdiazdev@gmail.com</span>

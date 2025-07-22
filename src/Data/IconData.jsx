@@ -12,8 +12,8 @@ const IconData = [
     name: "TypeScript",
   },
   {
-    icon: <FaIcons.FaJsSquare />,
-    name: "JavaScript",
+    icon: <SiIcons.SiDotnet />,
+    name: "DotNet",
   },
   {
     icon: <FaIcons.FaNodeJs />,
@@ -28,12 +28,12 @@ const IconData = [
     name: "CSS3",
   },
   {
-    icon: <FaIcons.FaSass />,
-    name: "SASS",
+    icon: <SiIcons.SiRedux />,
+    name: "Redux",
   },
   {
-    icon: <FaIcons.FaBootstrap />,
-    name: "Bootstrap",
+    icon: <SiIcons.SiAntdesign />,
+    name: "AntDesign",
   },
   {
     icon: <SiIcons.SiTailwindcss />,
@@ -44,8 +44,8 @@ const IconData = [
     name: "Git",
   },
   {
-    icon: <FaIcons.FaGithub />,
-    name: "Github",
+    icon: <SiIcons.SiVite />,
+    name: "Vite",
   },
   {
     icon: <FaIcons.FaFigma />,
@@ -60,8 +60,8 @@ const IconData = [
     name: "Express.js",
   },
   {
-    icon: <SiIcons.SiAzuredevops />,
-    name: "Azure devops",
+    icon: <SiIcons.SiMui />,
+    name: "MUI",
   },
   {
     icon: <SiIcons.SiPostgresql />,
@@ -72,8 +72,8 @@ const IconData = [
     name: "Postman",
   },
   {
-    icon: <SiIcons.SiFirebase />,
-    name: "Firebase",
+    icon: <SiIcons.SiSqlite />,
+    name: "SQLite",
   },
   {
     icon: <SiIcons.SiExpo />,
